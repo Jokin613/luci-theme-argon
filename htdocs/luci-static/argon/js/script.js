@@ -101,8 +101,8 @@
         var ul = $(this).next(".slide-menu");
         var menu = $(this);
         if (!menu.hasClass("exit")) {
-            $(".main > .main-left > .nav > .slide > .active").next(".slide-menu").stop(true).slideUp("fast");
-            $(".main > .main-left > .nav > .slide > .menu").removeClass("active");
+            // $(".main > .main-left > .nav > .slide > .active").next(".slide-menu").stop(true).slideUp("fast");
+            // $(".main > .main-left > .nav > .slide > .menu").removeClass("active");
             if (!ul.is(":visible")) {
                 menu.addClass("active");
                 ul.addClass("active");
