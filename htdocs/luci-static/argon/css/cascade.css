@@ -1719,7 +1719,7 @@ td > table > tbody > tr > td,
   word-wrap: break-word;
 }
 .cbi-rowstyle-1 {
-  background-color: #f9f9f9;
+  background-color: rgba(61, 145, 125, 0.1);
 }
 .cbi-rowstyle-2 {
   background-color: #eee;
@@ -2033,16 +2033,17 @@ body:not(.Interfaces) .cbi-rowstyle-2:first-child {
   height: 20px;
   margin: 6px 0;
   border: thin solid #999;
-  background: #eee;
-  border-radius: 0.2rem;
+  background: #fff;
+  border-radius: 1rem;
   overflow: hidden;
 }
 .cbi-progressbar > div {
   width: 0;
   height: 100%;
   transition: width 0.25s ease-in;
-  background: #5e72e4;
-  background: var(--primary);
+  /*background: #5e72e4;*/
+  /*background: var(--primary);*/
+  background-image: linear-gradient(to right, #50C9C3 0%, #96DEDA  51%, #50C9C3  100%);
 }
 .cbi-progressbar::after {
   font-family: monospace;
