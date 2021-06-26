@@ -2036,11 +2036,14 @@ body:not(.Interfaces) .cbi-rowstyle-2:first-child {
   background: #fff;
   border-radius: 1rem;
   overflow: hidden;
+  color: #32CCBC;
+  color: var(--primary);;
 }
 .cbi-progressbar > div {
   width: 0;
   height: 100%;
   transition: width 0.25s ease-in;
+  color: white;
   /*background: #5e72e4;*/
   /*background: var(--primary);*/
   background-image: linear-gradient(to right, #50C9C3 0%, #96DEDA  51%, #50C9C3  100%);
