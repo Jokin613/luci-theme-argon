@@ -506,7 +506,7 @@ hr {
   z-index: 10;
   color: #525461;
   color: var(--default);
-  position: absolute;
+  /*position: absolute;*/
   bottom: 0;
 }
 .login-page .login-container footer .ftc {
