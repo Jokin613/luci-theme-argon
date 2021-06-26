@@ -710,8 +710,9 @@ div[style="width:100%;height:300px;border:1px solid #000;background:#fff"] {
   background-color: #5cb85c !important;
 }
 .notice {
-  background-color: #11cdef !important;
-  color: #fff;
+  background-color: white !important;
+  color: #5e72e4;
+  color: var(--primary);
 }
 .error {
   color: #f00;
